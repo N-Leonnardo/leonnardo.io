@@ -1,0 +1,267 @@
+.custom-colors-indicator:before {
+    content: "#313131,#8a8a8a";
+}
+/*---------------------This section users the original header color---------------*/
+.daterangepicker table thead tr:nth-child(2) {
+    color: #313131;
+}
+.daterangepicker td.in-range {
+    background: #979797;
+    color: #fff;
+}
+.daterangepicker td.active, .daterangepicker td.active:hover {
+    background-color: #313131;
+    border-color: #313131;
+    color: #fff;
+}
+#mainContent #dashboardAppWrapper .navbar-inverse .navbar-nav > .active > a, body.dashboardAppWrapper.pdf .navbar-inverse .navbar-nav > .active > a, #mainContent #dashboardAppWrapper .navbar-inverse .navbar-nav > .active > a:hover, body.dashboardAppWrapper.pdf .navbar-inverse .navbar-nav > .active > a:hover, #mainContent #dashboardAppWrapper .navbar-inverse .navbar-nav > .active > a:focus, body.dashboardAppWrapper.pdf .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #313131;
+}
+#mainContent #dashboardAppWrapper .stats-wrapper .nav-sidebar a.active, body.dashboardAppWrapper.pdf .stats-wrapper .nav-sidebar a.active {
+    background-color: #313131 !important;
+    color: #fff !important;
+    border-color: #4d4d4d !important;
+}
+#mainContent #dashboardAppWrapper .stats-wrapper .navbar-inverse .navbar-right li.active, body.dashboardAppWrapper.pdf .stats-wrapper .navbar-inverse .navbar-right li.active {
+    border-color: #4d4d4d;
+}
+#mainContent #dashboardAppWrapper .navbar-inverse .navbar-nav > .active > a, body.dashboardAppWrapper.pdf .navbar-inverse .navbar-nav > .active > a, #mainContent #dashboardAppWrapper .navbar-inverse .navbar-nav > .active > a:hover, body.dashboardAppWrapper.pdf .navbar-inverse .navbar-nav > .active > a:hover, #mainContent #dashboardAppWrapper .navbar-inverse .navbar-nav > .active > a:focus, body.dashboardAppWrapper.pdf .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #313131;
+}
+#mainContent #dashboardAppWrapper .navbar-inverse .navbar-nav > .open > a, body.dashboardAppWrapper.pdf .navbar-inverse .navbar-nav > .open > a, #mainContent #dashboardAppWrapper .navbar-inverse .navbar-nav > .open > a:hover, body.dashboardAppWrapper.pdf .navbar-inverse .navbar-nav > .open > a:hover, #mainContent #dashboardAppWrapper .navbar-inverse .navbar-nav > .open > a:focus, body.dashboardAppWrapper.pdf .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #313131;
+    color: #fff;
+}
+#mainContent #dashboardAppWrapper .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, body.dashboardAppWrapper.pdf .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, #mainContent #dashboardAppWrapper .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, body.dashboardAppWrapper.pdf .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, #mainContent #dashboardAppWrapper .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus, body.dashboardAppWrapper.pdf .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #313131;
+}
+#mainContent #dashboardAppWrapper .stats-wrapper .navbar-inverse .navbar-right li.open.action-btn a, body.dashboardAppWrapper.pdf .stats-wrapper .navbar-inverse .navbar-right li.open.action-btn a {
+    background-color: #979797;
+}
+/*---------------------------------------------------------------------------------*/
+#mainContent #dashboardAppWrapper .sub-section.no-data h1, body.dashboardAppWrapper.pdf .sub-section.no-data h1 {
+    color: #313131;
+}
+#mainContent #dashboardAppWrapper .bars path[statsgroup="total"], body.dashboardAppWrapper.pdf .bars path[statsgroup="total"] {
+    fill: #313131 !important;
+}
+#mainContent #dashboardAppWrapper .bars path[statsgroup="total"].hovered, body.dashboardAppWrapper.pdf .bars path[statsgroup="total"].hovered {
+    fill: #181818 !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="total"] > path, body.dashboardAppWrapper.pdf .legend-container [statsgroup="total"] > path {
+    fill: #313131 !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="total"].hovered > path, body.dashboardAppWrapper.pdf .legend-container [statsgroup="total"].hovered > path {
+    fill: #181818 !important;
+    stroke: #181818 !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="total"].hovered > text, body.dashboardAppWrapper.pdf .legend-container [statsgroup="total"].hovered > text {
+    fill: #181818 !important;
+}
+#mainContent #dashboardAppWrapper .bars path[statsgroup="totalLight1"], body.dashboardAppWrapper.pdf .bars path[statsgroup="totalLight1"] {
+    fill: #575757 !important;
+}
+#mainContent #dashboardAppWrapper .bars path[statsgroup="totalLight1"].hovered, body.dashboardAppWrapper.pdf .bars path[statsgroup="totalLight1"].hovered {
+    fill: #3e3e3e !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="totalLight1"] > path, body.dashboardAppWrapper.pdf .legend-container [statsgroup="totalLight1"] > path {
+    fill: #575757 !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="totalLight1"].hovered > path, body.dashboardAppWrapper.pdf .legend-container [statsgroup="totalLight1"].hovered > path {
+    fill: #3e3e3e !important;
+    stroke: #3e3e3e !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="totalLight1"].hovered > text, body.dashboardAppWrapper.pdf .legend-container [statsgroup="totalLight1"].hovered > text {
+    fill: #3e3e3e !important;
+}
+#mainContent #dashboardAppWrapper .bars path[statsgroup="totalLight2"], body.dashboardAppWrapper.pdf .bars path[statsgroup="totalLight2"] {
+    fill: #7e7e7e !important;
+}
+#mainContent #dashboardAppWrapper .bars path[statsgroup="totalLight2"].hovered, body.dashboardAppWrapper.pdf .bars path[statsgroup="totalLight2"].hovered {
+    fill: #646464 !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="totalLight2"] > path, body.dashboardAppWrapper.pdf .legend-container [statsgroup="totalLight2"] > path {
+    fill: #7e7e7e !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="totalLight2"].hovered > path, body.dashboardAppWrapper.pdf .legend-container [statsgroup="totalLight2"].hovered > path {
+    fill: #646464 !important;
+    stroke: #646464 !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="totalLight2"].hovered > text, body.dashboardAppWrapper.pdf .legend-container [statsgroup="totalLight2"].hovered > text {
+    fill: #646464 !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="total"] > path, body.dashboardAppWrapper.pdf .legend-container [statsgroup="total"] > path {
+    fill: #313131 !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="total"].hovered > path, body.dashboardAppWrapper.pdf .legend-container [statsgroup="total"].hovered > path {
+    fill: #181818 !important;
+    stroke: #181818 !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="total"].hovered > text, body.dashboardAppWrapper.pdf .legend-container [statsgroup="total"].hovered > text {
+    fill: #181818 !important;
+}
+#mainContent #dashboardAppWrapper path.line[statsgroup="total"], body.dashboardAppWrapper.pdf path.line[statsgroup="total"] {
+    stroke: #313131 !important;
+}
+#mainContent #dashboardAppWrapper path.line[statsgroup="total"].hovered, body.dashboardAppWrapper.pdf path.line[statsgroup="total"].hovered {
+    stroke: #181818 !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="total"] > path, body.dashboardAppWrapper.pdf .legend-container [statsgroup="total"] > path {
+    fill: #313131 !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="total"].hovered > path, body.dashboardAppWrapper.pdf .legend-container [statsgroup="total"].hovered > path {
+    fill: #181818 !important;
+    stroke: #181818 !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="total"].hovered > text, body.dashboardAppWrapper.pdf .legend-container [statsgroup="total"].hovered > text {
+    fill: #181818 !important;
+}
+#mainContent #dashboardAppWrapper .area[statsgroup="total"], body.dashboardAppWrapper.pdf .area[statsgroup="total"] {
+    fill: #313131 !important;
+}
+#mainContent #dashboardAppWrapper circle.inner-point[statsgroup="total"], body.dashboardAppWrapper.pdf circle.inner-point[statsgroup="total"] {
+    fill: #313131;
+}
+#mainContent #dashboardAppWrapper circle.inner-point[statsgroup="total"].hovered, body.dashboardAppWrapper.pdf circle.inner-point[statsgroup="total"].hovered {
+    stroke: #181818 !important;
+    fill: #181818 !important;
+}
+#mainContent #dashboardAppWrapper path.line[statsgroup="totalLight1"], body.dashboardAppWrapper.pdf path.line[statsgroup="totalLight1"] {
+    stroke: #575757 !important;
+}
+#mainContent #dashboardAppWrapper path.line[statsgroup="totalLight1"].hovered, body.dashboardAppWrapper.pdf path.line[statsgroup="totalLight1"].hovered {
+    stroke: #3e3e3e !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="totalLight1"] > path, body.dashboardAppWrapper.pdf .legend-container [statsgroup="totalLight1"] > path {
+    fill: #575757 !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="totalLight1"].hovered > path, body.dashboardAppWrapper.pdf .legend-container [statsgroup="totalLight1"].hovered > path {
+    fill: #3e3e3e !important;
+    stroke: #3e3e3e !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="totalLight1"].hovered > text, body.dashboardAppWrapper.pdf .legend-container [statsgroup="totalLight1"].hovered > text {
+    fill: #3e3e3e !important;
+}
+#mainContent #dashboardAppWrapper .area[statsgroup="totalLight1"], body.dashboardAppWrapper.pdf .area[statsgroup="totalLight1"] {
+    fill: #575757 !important;
+}
+#mainContent #dashboardAppWrapper circle.inner-point[statsgroup="totalLight1"], body.dashboardAppWrapper.pdf circle.inner-point[statsgroup="totalLight1"] {
+    fill: #575757;
+}
+#mainContent #dashboardAppWrapper circle.inner-point[statsgroup="totalLight1"].hovered, body.dashboardAppWrapper.pdf circle.inner-point[statsgroup="totalLight1"].hovered {
+    stroke: #3e3e3e !important;
+    fill: #3e3e3e !important;
+}
+#mainContent #dashboardAppWrapper path.line[statsgroup="totalLight2"], body.dashboardAppWrapper.pdf path.line[statsgroup="totalLight2"] {
+    stroke: #7e7e7e !important;
+}
+#mainContent #dashboardAppWrapper path.line[statsgroup="totalLight2"].hovered, body.dashboardAppWrapper.pdf path.line[statsgroup="totalLight2"].hovered {
+    stroke: #646464 !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="totalLight2"] > path, body.dashboardAppWrapper.pdf .legend-container [statsgroup="totalLight2"] > path {
+    fill: #7e7e7e !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="totalLight2"].hovered > path, body.dashboardAppWrapper.pdf .legend-container [statsgroup="totalLight2"].hovered > path {
+    fill: #646464 !important;
+    stroke: #646464 !important;
+}
+#mainContent #dashboardAppWrapper .legend-container [statsgroup="totalLight2"].hovered > text, body.dashboardAppWrapper.pdf .legend-container [statsgroup="totalLight2"].hovered > text {
+    fill: #646464 !important;
+}
+#mainContent #dashboardAppWrapper .area[statsgroup="totalLight2"], body.dashboardAppWrapper.pdf .area[statsgroup="totalLight2"] {
+    fill: #7e7e7e !important;
+}
+#mainContent #dashboardAppWrapper circle.inner-point[statsgroup="totalLight2"], body.dashboardAppWrapper.pdf circle.inner-point[statsgroup="totalLight2"] {
+    fill: #7e7e7e;
+}
+#mainContent #dashboardAppWrapper circle.inner-point[statsgroup="totalLight2"].hovered, body.dashboardAppWrapper.pdf circle.inner-point[statsgroup="totalLight2"].hovered {
+    stroke: #646464 !important;
+    fill: #646464 !important;
+}
+#mainContent #dashboardAppWrapper .horizontal-bar[statsgroup="total"] .colored-area, body.dashboardAppWrapper.pdf .horizontal-bar[statsgroup="total"] .colored-area {
+    background-color: #313131;
+}
+#mainContent #dashboardAppWrapper .horizontal-bar[statsgroup="total"] .colored-area:hover, body.dashboardAppWrapper.pdf .horizontal-bar[statsgroup="total"] .colored-area:hover {
+    background-color: #181818 !important;
+}
+#mainContent #dashboardAppWrapper .horizontal-bar[statsgroup="totalLight1"] .colored-area, body.dashboardAppWrapper.pdf .horizontal-bar[statsgroup="totalLight1"] .colored-area {
+    background-color: #575757;
+}
+#mainContent #dashboardAppWrapper .horizontal-bar[statsgroup="totalLight1"] .colored-area:hover, body.dashboardAppWrapper.pdf .horizontal-bar[statsgroup="totalLight1"] .colored-area:hover {
+    background-color: #3e3e3e !important;
+}
+#mainContent #dashboardAppWrapper .horizontal-bar[statsgroup="totalLight2"] .colored-area, body.dashboardAppWrapper.pdf .horizontal-bar[statsgroup="totalLight2"] .colored-area {
+    background-color: #7e7e7e;
+}
+#mainContent #dashboardAppWrapper .horizontal-bar[statsgroup="totalLight2"] .colored-area:hover, body.dashboardAppWrapper.pdf .horizontal-bar[statsgroup="totalLight2"] .colored-area:hover {
+    background-color: #646464 !important;
+}
+#mainContent #dashboardAppWrapper .geo-map .map-header h4, body.dashboardAppWrapper.pdf .geo-map .map-header h4 {
+    color: #313131;
+}
+#mainContent #dashboardAppWrapper .geo-map .map-header .map-breadcrumbs .active, body.dashboardAppWrapper.pdf .geo-map .map-header .map-breadcrumbs .active, #mainContent #dashboardAppWrapper .geo-map .map-header .map-breadcrumbs .active:hover, body.dashboardAppWrapper.pdf .geo-map .map-header .map-breadcrumbs .active:hover {
+    color: #313131;
+}
+#mainContent #dashboardAppWrapper .multiple-devices .widget-engagement .widget-icon, body.dashboardAppWrapper.pdf .multiple-devices .widget-engagement .widget-icon, #mainContent #dashboardAppWrapper .single-device.total .widget-engagement .widget-icon, body.dashboardAppWrapper.pdf .single-device.total .widget-engagement .widget-icon {
+    color: #313131;
+}
+#mainContent #dashboardAppWrapper .multiple-devices .layout-b .widget-count, body.dashboardAppWrapper.pdf .multiple-devices .layout-b .widget-count, #mainContent #dashboardAppWrapper .single-device.total .layout-b .widget-count, body.dashboardAppWrapper.pdf .single-device.total .layout-b .widget-count {
+    color: #313131;
+}
+#mainContent #dashboardAppWrapper .multiple-devices .widget-engagement.clickable:hover .widget-circle, body.dashboardAppWrapper.pdf .multiple-devices .widget-engagement.clickable:hover .widget-circle, #mainContent #dashboardAppWrapper .single-device.total .widget-engagement.clickable:hover .widget-circle, body.dashboardAppWrapper.pdf .single-device.total .widget-engagement.clickable:hover .widget-circle {
+    background-color: #313131;
+}
+#mainContent #dashboardAppWrapper .multiple-devices .empty-bar, body.dashboardAppWrapper.pdf .multiple-devices .empty-bar {
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 25px, rgba(49, 49, 49, 0.1) 25px, rgba(49, 49, 49, 0.1) 50px);
+    border-color: rgba(49, 49, 49, 0.5);
+}
+#mainContent #dashboardAppWrapper .single-device.total .empty-bar, body.dashboardAppWrapper.pdf .single-device.total .empty-bar {
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 25px, rgba(49, 49, 49, 0.1) 25px, rgba(49, 49, 49, 0.1) 50px);
+    border-color: rgba(49, 49, 49, 0.5);
+}
+#mainContent #dashboardAppWrapper .stats-wrapper .navbar-inverse .ember-select .ember-text-field, body.dashboardAppWrapper.pdf .stats-wrapper .navbar-inverse .ember-select .ember-text-field {
+    border: 1px solid #313131;
+}
+#mainContent #dashboardAppWrapper .channel-panel .nav-tabs li.active.total a, body.dashboardAppWrapper.pdf .channel-panel .nav-tabs li.active.total a {
+    background-color: #313131;
+}
+#mainContent #dashboardAppWrapper .channel-panel .welcome-section h1, body.dashboardAppWrapper.pdf .channel-panel .welcome-section h1 {
+    color: #313131;
+}
+#mainContent #dashboardAppWrapper .pdf-site-name, body.dashboardAppWrapper.pdf .pdf-site-name {
+    color: #313131;
+}
+#mainContent #dashboardAppWrapper .channel-panel .horizontal-bars-section.mobilesite, body.dashboardAppWrapper.pdf .channel-panel .horizontal-bars-section.mobilesite {
+    color: #313131;
+}
+#mainContent #dashboardAppWrapper .dashboard-button, body.dashboardAppWrapper.pdf .dashboard-button {
+    background-color: var(--button-color);
+    color: var(--button-visible-font-color);
+}
+#mainContent #dashboardAppWrapper .dashboard-button:hover:not([disabled]):not(.disabled), body.dashboardAppWrapper.pdf .dashboard-button:hover:not([disabled]):not(.disabled) {
+    background-color: var(--stats-hover-button) !important;
+}
+#mainContent #dashboardAppWrapper .engagement .category-header, body.dashboardAppWrapper.pdf .engagement .category-header {
+    color: #313131;
+}
+#mainContent #dashboardAppWrapper .multiple-devices .overview-engagement-item .item-header, body.dashboardAppWrapper.pdf .multiple-devices .overview-engagement-item .item-header, #mainContent #dashboardAppWrapper .single-device.total .overview-engagement-item .item-header, body.dashboardAppWrapper.pdf .single-device.total .overview-engagement-item .item-header {
+    background-color: #313131;
+}
+#mainContent #dashboardAppWrapper .overview .overview-engagement-item .item-header, body.dashboardAppWrapper.pdf .overview .overview-engagement-item .item-header {
+    color: #fff;
+}
+#mainContent #dashboardAppWrapper .multiple-devices .overview-engagement-item .align-right, body.dashboardAppWrapper.pdf .multiple-devices .overview-engagement-item .align-right, #mainContent #dashboardAppWrapper .single-device.total .overview-engagement-item .align-right, body.dashboardAppWrapper.pdf .single-device.total .overview-engagement-item .align-right {
+    color: #313131;
+}
+#mainContent #dashboardAppWrapper .channel-panel p a, body.dashboardAppWrapper.pdf .channel-panel p a {
+    color: #313131;
+}
+#mainContent #dashboardAppWrapper .multiple-devices .colored-text, body.dashboardAppWrapper.pdf .multiple-devices .colored-text, #mainContent #dashboardAppWrapper .single-device.total .colored-text, body.dashboardAppWrapper.pdf .single-device.total .colored-text {
+    color: #313131;
+}
+#mainContent #dashboardAppWrapper .multiple-devices .colored-bg, body.dashboardAppWrapper.pdf .multiple-devices .colored-bg, #mainContent #dashboardAppWrapper .single-device.total .colored-bg, body.dashboardAppWrapper.pdf .single-device.total .colored-bg {
+    background-color: #313131;
+}

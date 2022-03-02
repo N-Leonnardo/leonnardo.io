@@ -1,0 +1,441 @@
+.ptOrangeBtn.addSiteBtn {
+  background: var(--mobile-site-color);
+  color: var(--mobile-site-text-color);
+}
+
+.ptOrangeBtn.addSiteBtn:hover:not(.disabled) {
+  background: var(--darker-mobile-site-color);
+}
+
+.siteTypeIndicator {
+  background: var(--mobile-site-color);
+}
+
+.siteTypeIndicator[data-dudaone='true'] {
+  background: var(--responsive-site-color);
+}
+
+
+.ptOrangeBtn, #mainContent #siteList #listTitle > div.col1 .TagsSelect:hover, #mainContent #siteList #listTitle > div.col1 .TagsSelect.ui-state-active, #mainContent #siteList #listTitle > div.col1 .labelSelect:hover, #mainContent #siteList #listTitle > div.col1 .labelSelect.ui-state-active, #mainContent #siteList .listTitle > div.col1 .TagsSelect:hover, #mainContent #siteList .listTitle > div.col1 .TagsSelect.ui-state-active, #mainContent #siteList .listTitle > div.col1 .labelSelect:hover, #mainContent #siteList .listTitle > div.col1 .labelSelect.ui-state-active, #mainContent .siteSelectList #listTitle > div.col1 .TagsSelect:hover, #mainContent .siteSelectList #listTitle > div.col1 .TagsSelect.ui-state-active, #mainContent .siteSelectList #listTitle > div.col1 .labelSelect:hover, #mainContent .siteSelectList #listTitle > div.col1 .labelSelect.ui-state-active, #mainContent .siteSelectList .listTitle > div.col1 .TagsSelect:hover, #mainContent .siteSelectList .listTitle > div.col1 .TagsSelect.ui-state-active, #mainContent .siteSelectList .listTitle > div.col1 .labelSelect:hover, #mainContent .siteSelectList .listTitle > div.col1 .labelSelect.ui-state-active, #siteSelectListWrapper #siteList #listTitle > div.col1 .TagsSelect:hover, #siteSelectListWrapper #siteList #listTitle > div.col1 .TagsSelect.ui-state-active, #siteSelectListWrapper #siteList #listTitle > div.col1 .labelSelect:hover, #siteSelectListWrapper #siteList #listTitle > div.col1 .labelSelect.ui-state-active, #siteSelectListWrapper #siteList .listTitle > div.col1 .TagsSelect:hover, #siteSelectListWrapper #siteList .listTitle > div.col1 .TagsSelect.ui-state-active, #siteSelectListWrapper #siteList .listTitle > div.col1 .labelSelect:hover, #siteSelectListWrapper #siteList .listTitle > div.col1 .labelSelect.ui-state-active, #siteSelectListWrapper .siteSelectList #listTitle > div.col1 .TagsSelect:hover, #siteSelectListWrapper .siteSelectList #listTitle > div.col1 .TagsSelect.ui-state-active, #siteSelectListWrapper .siteSelectList #listTitle > div.col1 .labelSelect:hover, #siteSelectListWrapper .siteSelectList #listTitle > div.col1 .labelSelect.ui-state-active, #siteSelectListWrapper .siteSelectList .listTitle > div.col1 .TagsSelect:hover, #siteSelectListWrapper .siteSelectList .listTitle > div.col1 .TagsSelect.ui-state-active, #siteSelectListWrapper .siteSelectList .listTitle > div.col1 .labelSelect:hover, #siteSelectListWrapper .siteSelectList .listTitle > div.col1 .labelSelect.ui-state-active, .switchBtn {
+  background-color: var(--button-color);
+  color: var(--button-visible-font-color);
+}
+
+#mainContent #siteList #theList .col4 a.upgradeLink,
+#mainContent #siteList #theList .col4 a.d1UpgradeLink,
+#mainContent #siteList #theList .col4 a.d1UpgradeLinkBeta,
+#mainContent #siteList #theSelectList .col4 a.upgradeLink,
+#mainContent #siteList #theSelectList .col4 a.d1UpgradeLink,
+#mainContent #siteList #theSelectList .col4 a.d1UpgradeLinkBeta,
+#mainContent .siteSelectList #theList .col4 a.upgradeLink,
+#mainContent .siteSelectList #theList .col4 a.d1UpgradeLink,
+#mainContent .siteSelectList #theList .col4 a.d1UpgradeLinkBeta,
+#mainContent .siteSelectList #theSelectList .col4 a.upgradeLink,
+#mainContent .siteSelectList #theSelectList .col4 a.d1UpgradeLink,
+#mainContent .siteSelectList #theSelectList .col4 a.d1UpgradeLinkBeta,
+#siteSelectListWrapper #siteList #theList .col4 a.upgradeLink,
+#siteSelectListWrapper #siteList #theList .col4 a.d1UpgradeLink,
+#siteSelectListWrapper #siteList #theList .col4 a.d1UpgradeLinkBeta,
+#siteSelectListWrapper #siteList #theSelectList .col4 a.upgradeLink,
+#siteSelectListWrapper #siteList #theSelectList .col4 a.d1UpgradeLink,
+#siteSelectListWrapper #siteList #theSelectList .col4 a.d1UpgradeLinkBeta,
+#siteSelectListWrapper .siteSelectList #theList .col4 a.upgradeLink,
+#siteSelectListWrapper .siteSelectList #theList .col4 a.d1UpgradeLink,
+#siteSelectListWrapper .siteSelectList #theList .col4 a.d1UpgradeLinkBeta,
+#siteSelectListWrapper .siteSelectList #theSelectList .col4 a.upgradeLink,
+#siteSelectListWrapper .siteSelectList #theSelectList .col4 a.d1UpgradeLink,
+#siteSelectListWrapper
+.siteSelectList
+#theSelectList
+.col4
+a.d1UpgradeLinkBeta {
+  color: var(--button-color);
+  border-color: var(--button-color);
+}
+
+#mainContent #siteList #theList .col4 a.upgradeLink:hover, #mainContent #siteList #theList .col4 a.d1UpgradeLink:hover, #mainContent #siteList #theList .col4 a.d1UpgradeLinkBeta:hover, #mainContent #siteList #theSelectList .col4 a.upgradeLink:hover, #mainContent #siteList #theSelectList .col4 a.d1UpgradeLink:hover, #mainContent #siteList #theSelectList .col4 a.d1UpgradeLinkBeta:hover, #mainContent .siteSelectList #theList .col4 a.upgradeLink:hover, #mainContent .siteSelectList #theList .col4 a.d1UpgradeLink:hover, #mainContent .siteSelectList #theList .col4 a.d1UpgradeLinkBeta:hover, #mainContent .siteSelectList #theSelectList .col4 a.upgradeLink:hover, #mainContent .siteSelectList #theSelectList .col4 a.d1UpgradeLink:hover, #mainContent .siteSelectList #theSelectList .col4 a.d1UpgradeLinkBeta:hover, #siteSelectListWrapper #siteList #theList .col4 a.upgradeLink:hover, #siteSelectListWrapper #siteList #theList .col4 a.d1UpgradeLink:hover, #siteSelectListWrapper #siteList #theList .col4 a.d1UpgradeLinkBeta:hover, #siteSelectListWrapper #siteList #theSelectList .col4 a.upgradeLink:hover, #siteSelectListWrapper #siteList #theSelectList .col4 a.d1UpgradeLink:hover, #siteSelectListWrapper #siteList #theSelectList .col4 a.d1UpgradeLinkBeta:hover, #siteSelectListWrapper .siteSelectList #theList .col4 a.upgradeLink:hover, #siteSelectListWrapper .siteSelectList #theList .col4 a.d1UpgradeLink:hover, #siteSelectListWrapper .siteSelectList #theList .col4 a.d1UpgradeLinkBeta:hover, #siteSelectListWrapper .siteSelectList #theSelectList .col4 a.upgradeLink:hover, #siteSelectListWrapper .siteSelectList #theSelectList .col4 a.d1UpgradeLink:hover, #siteSelectListWrapper .siteSelectList #theSelectList .col4 a.d1UpgradeLinkBeta:hover {
+  background-color: var(--button-color);
+  color: var(--button-visible-font-color);
+}
+
+/* old custom branding */
+.accountCustomBox .accountCustomTabs > span[data-customid="1"]:before {
+  background-color: var(--dashboard-tab);
+}
+
+.accountCustomBox .accountCustomTabs > span[data-customid="1"].customTabOn, .accountCustomBox .accountCustomTabs > span[data-customid="1"]:hover {
+  background-color: var(--dashboard-tab);
+  border-color: var(--dashboard-tab);
+}
+
+.accountCustomBox .accountCustomTabs > span[data-customid="2"]:before {
+  background-color: #6d6d6d;
+}
+
+.accountCustomBox .accountCustomTabs > span[data-customid="2"].customTabOn, .accountCustomBox .accountCustomTabs > span[data-customid="2"]:hover {
+  background-color: #6d6d6d;
+  border-color: #6d6d6d;
+}
+
+.accountCustomBox .accountCustomTabs > span[data-customid="3"]:before {
+  background-color: #e8ebeb;
+}
+
+.accountCustomBox .accountCustomTabs > span[data-customid="3"].customTabOn, .accountCustomBox .accountCustomTabs > span[data-customid="3"]:hover {
+  background-color: #e8ebeb;
+  border-color: #e8ebeb;
+}
+
+.accountCustomBox .accountCustomTabs > span[data-customid="4"]:before {
+  background-color: var(--dashboard-tab-light);
+}
+
+.accountCustomBox .accountCustomTabs > span[data-customid="4"].customTabOn, .accountCustomBox .accountCustomTabs > span[data-customid="4"]:hover {
+  background-color: var(--dashboard-tab-light);
+  border-color: var(--dashboard-tab-light);
+}
+
+.accountCustomBox .accountCustomTabs > span[data-customid="5"]:before {
+  background-color: var(--responsive-site-color);
+}
+
+.accountCustomBox .accountCustomTabs > span[data-customid="5"].customTabOn, .accountCustomBox .accountCustomTabs > span[data-customid="5"]:hover {
+  background-color: var(--responsive-site-color);
+  border-color: var(--responsive-site-color);
+}
+
+.accountCustomBox .accountCustomTabs > span[data-customid="6"]:before {
+  background-color: #fea158;
+}
+
+.accountCustomBox .accountCustomTabs > span[data-customid="6"].customTabOn, .accountCustomBox .accountCustomTabs > span[data-customid="6"]:hover {
+  background-color: #fea158;
+  border-color: #fea158;
+}
+
+.accountCustomBox .accountCustomTabs > span[data-customid="7"]:before {
+  background-color: #f66035;
+}
+
+.accountCustomBox .accountCustomTabs > span[data-customid="7"].customTabOn, .accountCustomBox .accountCustomTabs > span[data-customid="7"]:hover {
+  background-color: #f66035;
+  border-color: #f66035;
+}
+
+
+.ptOrangeBtn.ptOrangeBtnReversed {
+  background-color: var(--button-visible-font-color);
+  color: var(--button-color);
+}
+
+.ptOrangeBtn.ptOrangeBtnReversed:hover:not(.disabled) {
+  background-color: var(--button-visible-font-color);
+}
+
+#tagsActions a,
+#filterActions a {
+  color: var(--button-color);
+}
+
+.ptOrangeBtn:hover:not(.disabled), .switchBtn:hover {
+  background: var(--switch-btn-hover-color);
+}
+
+.ptOrangeBtnDisabled {
+  background: #f7bf92 !important;
+  cursor: default;
+  display: inline-block;
+  height: 28px;
+  margin-left: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.ptBlueBtn {
+  color: var(--secondary-btn-font-color);
+  background-color: var(--secondary-btn-color);
+}
+
+.ptBlueBtn:hover {
+  background: var(--secondary-btn-hover-color);
+}
+
+
+#topNav #userMenuWarper ul#userMenu ul {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+#topNav #userMenuWarper ul#userMenu li ul a:hover {
+  color: var(--button-color);
+}
+
+
+.manageWrapper .manageSiteHeader .manageSiteName {
+  color: var(--header-color);
+}
+
+#navigationHeader #logo {
+  background-image: var(--logo-url);
+}
+
+
+#navigationWrapper {
+  background: var(--header-color);
+  border-bottom: 1px solid var(--border-stripe-color);
+}
+
+#navigationWrapper #navigation li:not(.subnav-item) {
+  border-left: 1px solid var(--border-stripe-color);
+}
+
+#navigationWrapper #navigation li:not(.subnav-item) > a {
+  color: var(--header-text-color);
+}
+
+#navigationWrapper #navigation li:not(.subnav-item) > a:hover, #navigationWrapper #navigation li:not(.subnav-item) > a:active {
+  color: var(--button-color);
+}
+
+#navigationWrapper #navigation li:not(.subnav-item) > a.current {
+  color: var(--button-color);
+  font-weight: 600;
+}
+
+#navigationWrapper #navigation li.subnav-item > a {
+  color: var(--header-text-color);
+}
+
+#navigationWrapper #navigation .subnav {
+  border-top-color: var(--border-stripe-color);
+  border-left: var(--border-stripe-color) 1px solid;
+  border-right: var(--border-stripe-color) 1px solid;
+}
+
+#navigationWrapper #navigation .subnav li a {
+  color: var(--header-text-color);
+}
+
+#navigationWrapper #navigation .language-option a {
+  color: var(--header-text-color);
+}
+
+#navigationWrapper #navigation .language-list {
+  border: 1px solid var(--border-stripe-color);
+}
+
+#navigationWrapper #navigation .language-list .language-option {
+  border-bottom: 1px solid var(--border-stripe-color);
+}
+
+#navigationWrapper #navigation .language-list .language-option:first-child {
+  border-top: none;
+}
+
+#navigationWrapper #navigation .language-list .language-option:last-child {
+  border-bottom: none;
+}
+
+#navigationWrapper #navigation .subnav-item {
+  border-bottom: 1px solid var(--border-stripe-color);
+}
+
+#navigationWrapper #navigation .subnav-item:first-child {
+  border-top: 1px solid var(--border-stripe-color);
+}
+
+#navigationWrapper #navigation .subnav-item.active, #navigationWrapper #navigation .subnav-item:hover {
+  color: var(--button-color);
+}
+
+#navigationWrapper #navigation .subnav-item.active a.active, #navigationWrapper #navigation .subnav-item:hover a.active, #navigationWrapper #navigation .subnav-item.active a:hover, #navigationWrapper #navigation .subnav-item:hover a:hover {
+  color: var(--button-color);
+}
+
+#mainContent #mainTop h2, .mainContent #mainTop h2, #mainContent .mainTop h2, .mainContent .mainTop h2 {
+  color: var(--main-title-color);
+}
+
+#mainContent #mainTop #topSearch #searchBtn, .mainContent #mainTop #topSearch #searchBtn, #mainContent .mainTop #topSearch #searchBtn, .mainContent .mainTop #topSearch #searchBtn, #mainContent #mainTop .topSearch #searchBtn, .mainContent #mainTop .topSearch #searchBtn, #mainContent .mainTop .topSearch #searchBtn, .mainContent .mainTop .topSearch #searchBtn {
+  background-color: var(--searchBtn-background-color);
+  color: var(--searchBtn-color);
+}
+
+#mainContent #mainTop #topSearch #clearSearchlink, .mainContent #mainTop #topSearch #clearSearchlink, #mainContent .mainTop #topSearch #clearSearchlink, .mainContent .mainTop #topSearch #clearSearchlink, #mainContent #mainTop .topSearch #clearSearchlink, .mainContent #mainTop .topSearch #clearSearchlink, #mainContent .mainTop .topSearch #clearSearchlink, .mainContent .mainTop .topSearch #clearSearchlink {
+  background-color: var(--clearSearchBtn-background-color);
+  color: var(--clearSearchBtn-color);
+}
+
+#mainContent #siteList #theList .col2 a, .mainContent #siteList #theList .col2 a, #mainContent .siteSelectList #theList .col2 a, .mainContent .siteSelectList #theList .col2 a, #mainContent #siteList #theSelectList .col2 a, .mainContent #siteList #theSelectList .col2 a, #mainContent .siteSelectList #theSelectList .col2 a, .mainContent .siteSelectList #theSelectList .col2 a, #mainContent #siteList #theList .col3 a, .mainContent #siteList #theList .col3 a, #mainContent .siteSelectList #theList .col3 a, .mainContent .siteSelectList #theList .col3 a, #mainContent #siteList #theSelectList .col3 a, .mainContent #siteList #theSelectList .col3 a, #mainContent .siteSelectList #theSelectList .col3 a, .mainContent .siteSelectList #theSelectList .col3 a {
+  color: var(--link-color);
+}
+
+#mainContent #siteList #theList .col2 .redirectStatus span.orangeIcon, .mainContent #siteList #theList .col2 .redirectStatus span.orangeIcon, #mainContent .siteSelectList #theList .col2 .redirectStatus span.orangeIcon, .mainContent .siteSelectList #theList .col2 .redirectStatus span.orangeIcon, #mainContent #siteList #theSelectList .col2 .redirectStatus span.orangeIcon, .mainContent #siteList #theSelectList .col2 .redirectStatus span.orangeIcon, #mainContent .siteSelectList #theSelectList .col2 .redirectStatus span.orangeIcon, .mainContent .siteSelectList #theSelectList .col2 .redirectStatus span.orangeIcon, #mainContent #siteList #theList .col3 .redirectStatus span.orangeIcon, .mainContent #siteList #theList .col3 .redirectStatus span.orangeIcon, #mainContent .siteSelectList #theList .col3 .redirectStatus span.orangeIcon, .mainContent .siteSelectList #theList .col3 .redirectStatus span.orangeIcon, #mainContent #siteList #theSelectList .col3 .redirectStatus span.orangeIcon, .mainContent #siteList #theSelectList .col3 .redirectStatus span.orangeIcon, #mainContent .siteSelectList #theSelectList .col3 .redirectStatus span.orangeIcon, .mainContent .siteSelectList #theSelectList .col3 .redirectStatus span.orangeIcon, #mainContent #siteList #theList .col2 .publishStatus span.orangeIcon, .mainContent #siteList #theList .col2 .publishStatus span.orangeIcon, #mainContent .siteSelectList #theList .col2 .publishStatus span.orangeIcon, .mainContent .siteSelectList #theList .col2 .publishStatus span.orangeIcon, #mainContent #siteList #theSelectList .col2 .publishStatus span.orangeIcon, .mainContent #siteList #theSelectList .col2 .publishStatus span.orangeIcon, #mainContent .siteSelectList #theSelectList .col2 .publishStatus span.orangeIcon, .mainContent .siteSelectList #theSelectList .col2 .publishStatus span.orangeIcon, #mainContent #siteList #theList .col3 .publishStatus span.orangeIcon, .mainContent #siteList #theList .col3 .publishStatus span.orangeIcon, #mainContent .siteSelectList #theList .col3 .publishStatus span.orangeIcon, .mainContent .siteSelectList #theList .col3 .publishStatus span.orangeIcon, #mainContent #siteList #theSelectList .col3 .publishStatus span.orangeIcon, .mainContent #siteList #theSelectList .col3 .publishStatus span.orangeIcon, #mainContent .siteSelectList #theSelectList .col3 .publishStatus span.orangeIcon, .mainContent .siteSelectList #theSelectList .col3 .publishStatus span.orangeIcon {
+  color: var(--button-color);
+}
+
+#mainContent #siteList #theList .col2 .redirectStatus .link-allowed span.publishIcon:hover, .mainContent #siteList #theList .col2 .redirectStatus .link-allowed span.publishIcon:hover, #mainContent .siteSelectList #theList .col2 .redirectStatus .link-allowed span.publishIcon:hover, .mainContent .siteSelectList #theList .col2 .redirectStatus .link-allowed span.publishIcon:hover, #mainContent #siteList #theSelectList .col2 .redirectStatus .link-allowed span.publishIcon:hover, .mainContent #siteList #theSelectList .col2 .redirectStatus .link-allowed span.publishIcon:hover, #mainContent .siteSelectList #theSelectList .col2 .redirectStatus .link-allowed span.publishIcon:hover, .mainContent .siteSelectList #theSelectList .col2 .redirectStatus .link-allowed span.publishIcon:hover, #mainContent #siteList #theList .col3 .redirectStatus .link-allowed span.publishIcon:hover, .mainContent #siteList #theList .col3 .redirectStatus .link-allowed span.publishIcon:hover, #mainContent .siteSelectList #theList .col3 .redirectStatus .link-allowed span.publishIcon:hover, .mainContent .siteSelectList #theList .col3 .redirectStatus .link-allowed span.publishIcon:hover, #mainContent #siteList #theSelectList .col3 .redirectStatus .link-allowed span.publishIcon:hover, .mainContent #siteList #theSelectList .col3 .redirectStatus .link-allowed span.publishIcon:hover, #mainContent .siteSelectList #theSelectList .col3 .redirectStatus .link-allowed span.publishIcon:hover, .mainContent .siteSelectList #theSelectList .col3 .redirectStatus .link-allowed span.publishIcon:hover, #mainContent #siteList #theList .col2 .publishStatus .link-allowed span.publishIcon:hover, .mainContent #siteList #theList .col2 .publishStatus .link-allowed span.publishIcon:hover, #mainContent .siteSelectList #theList .col2 .publishStatus .link-allowed span.publishIcon:hover, .mainContent .siteSelectList #theList .col2 .publishStatus .link-allowed span.publishIcon:hover, #mainContent #siteList #theSelectList .col2 .publishStatus .link-allowed span.publishIcon:hover, .mainContent #siteList #theSelectList .col2 .publishStatus .link-allowed span.publishIcon:hover, #mainContent .siteSelectList #theSelectList .col2 .publishStatus .link-allowed span.publishIcon:hover, .mainContent .siteSelectList #theSelectList .col2 .publishStatus .link-allowed span.publishIcon:hover, #mainContent #siteList #theList .col3 .publishStatus .link-allowed span.publishIcon:hover, .mainContent #siteList #theList .col3 .publishStatus .link-allowed span.publishIcon:hover, #mainContent .siteSelectList #theList .col3 .publishStatus .link-allowed span.publishIcon:hover, .mainContent .siteSelectList #theList .col3 .publishStatus .link-allowed span.publishIcon:hover, #mainContent #siteList #theSelectList .col3 .publishStatus .link-allowed span.publishIcon:hover, .mainContent #siteList #theSelectList .col3 .publishStatus .link-allowed span.publishIcon:hover, #mainContent .siteSelectList #theSelectList .col3 .publishStatus .link-allowed span.publishIcon:hover, .mainContent .siteSelectList #theSelectList .col3 .publishStatus .link-allowed span.publishIcon:hover {
+  background-color: var(--secondary-btn-color);
+  border-color: var(--secondary-btn-color);
+  color: var(--secondary-btn-color);
+}
+
+#mainContent #siteList #theList .col2 .redirectStatus span.Published, .mainContent #siteList #theList .col2 .redirectStatus span.Published, #mainContent .siteSelectList #theList .col2 .redirectStatus span.Published, .mainContent .siteSelectList #theList .col2 .redirectStatus span.Published, #mainContent #siteList #theSelectList .col2 .redirectStatus span.Published, .mainContent #siteList #theSelectList .col2 .redirectStatus span.Published, #mainContent .siteSelectList #theSelectList .col2 .redirectStatus span.Published, .mainContent .siteSelectList #theSelectList .col2 .redirectStatus span.Published, #mainContent #siteList #theList .col3 .redirectStatus span.Published, .mainContent #siteList #theList .col3 .redirectStatus span.Published, #mainContent .siteSelectList #theList .col3 .redirectStatus span.Published, .mainContent .siteSelectList #theList .col3 .redirectStatus span.Published, #mainContent #siteList #theSelectList .col3 .redirectStatus span.Published, .mainContent #siteList #theSelectList .col3 .redirectStatus span.Published, #mainContent .siteSelectList #theSelectList .col3 .redirectStatus span.Published, .mainContent .siteSelectList #theSelectList .col3 .redirectStatus span.Published, #mainContent #siteList #theList .col2 .publishStatus span.Published, .mainContent #siteList #theList .col2 .publishStatus span.Published, #mainContent .siteSelectList #theList .col2 .publishStatus span.Published, .mainContent .siteSelectList #theList .col2 .publishStatus span.Published, #mainContent #siteList #theSelectList .col2 .publishStatus span.Published, .mainContent #siteList #theSelectList .col2 .publishStatus span.Published, #mainContent .siteSelectList #theSelectList .col2 .publishStatus span.Published, .mainContent .siteSelectList #theSelectList .col2 .publishStatus span.Published, #mainContent #siteList #theList .col3 .publishStatus span.Published, .mainContent #siteList #theList .col3 .publishStatus span.Published, #mainContent .siteSelectList #theList .col3 .publishStatus span.Published, .mainContent .siteSelectList #theList .col3 .publishStatus span.Published, #mainContent #siteList #theSelectList .col3 .publishStatus span.Published, .mainContent #siteList #theSelectList .col3 .publishStatus span.Published, #mainContent .siteSelectList #theSelectList .col3 .publishStatus span.Published, .mainContent .siteSelectList #theSelectList .col3 .publishStatus span.Published {
+  background: none;
+  border: none;
+  color: #7dc576;
+}
+
+#mainContent #siteList #theList .col2 .redirectStatus .link-allowed span.Published:hover, .mainContent #siteList #theList .col2 .redirectStatus .link-allowed span.Published:hover, #mainContent .siteSelectList #theList .col2 .redirectStatus .link-allowed span.Published:hover, .mainContent .siteSelectList #theList .col2 .redirectStatus .link-allowed span.Published:hover, #mainContent #siteList #theSelectList .col2 .redirectStatus .link-allowed span.Published:hover, .mainContent #siteList #theSelectList .col2 .redirectStatus .link-allowed span.Published:hover, #mainContent .siteSelectList #theSelectList .col2 .redirectStatus .link-allowed span.Published:hover, .mainContent .siteSelectList #theSelectList .col2 .redirectStatus .link-allowed span.Published:hover, #mainContent #siteList #theList .col3 .redirectStatus .link-allowed span.Published:hover, .mainContent #siteList #theList .col3 .redirectStatus .link-allowed span.Published:hover, #mainContent .siteSelectList #theList .col3 .redirectStatus .link-allowed span.Published:hover, .mainContent .siteSelectList #theList .col3 .redirectStatus .link-allowed span.Published:hover, #mainContent #siteList #theSelectList .col3 .redirectStatus .link-allowed span.Published:hover, .mainContent #siteList #theSelectList .col3 .redirectStatus .link-allowed span.Published:hover, #mainContent .siteSelectList #theSelectList .col3 .redirectStatus .link-allowed span.Published:hover, .mainContent .siteSelectList #theSelectList .col3 .redirectStatus .link-allowed span.Published:hover, #mainContent #siteList #theList .col2 .publishStatus .link-allowed span.Published:hover, .mainContent #siteList #theList .col2 .publishStatus .link-allowed span.Published:hover, #mainContent .siteSelectList #theList .col2 .publishStatus .link-allowed span.Published:hover, .mainContent .siteSelectList #theList .col2 .publishStatus .link-allowed span.Published:hover, #mainContent #siteList #theSelectList .col2 .publishStatus .link-allowed span.Published:hover, .mainContent #siteList #theSelectList .col2 .publishStatus .link-allowed span.Published:hover, #mainContent .siteSelectList #theSelectList .col2 .publishStatus .link-allowed span.Published:hover, .mainContent .siteSelectList #theSelectList .col2 .publishStatus .link-allowed span.Published:hover, #mainContent #siteList #theList .col3 .publishStatus .link-allowed span.Published:hover, .mainContent #siteList #theList .col3 .publishStatus .link-allowed span.Published:hover, #mainContent .siteSelectList #theList .col3 .publishStatus .link-allowed span.Published:hover, .mainContent .siteSelectList #theList .col3 .publishStatus .link-allowed span.Published:hover, #mainContent #siteList #theSelectList .col3 .publishStatus .link-allowed span.Published:hover, .mainContent #siteList #theSelectList .col3 .publishStatus .link-allowed span.Published:hover, #mainContent .siteSelectList #theSelectList .col3 .publishStatus .link-allowed span.Published:hover, .mainContent .siteSelectList #theSelectList .col3 .publishStatus .link-allowed span.Published:hover {
+  color: #62b45a;
+  background: none;
+  border: none;
+}
+
+#mainContent #siteList #theList .siteName, .mainContent #siteList #theList .siteName, #mainContent .siteSelectList #theList .siteName, .mainContent .siteSelectList #theList .siteName, #mainContent #siteList #theSelectList .siteName, .mainContent #siteList #theSelectList .siteName, #mainContent .siteSelectList #theSelectList .siteName, .mainContent .siteSelectList #theSelectList .siteName {
+  color: var(--site-name-color);
+}
+
+#mainContent #siteList #theList .siteUrl, .mainContent #siteList #theList .siteUrl, #mainContent .siteSelectList #theList .siteUrl, .mainContent .siteSelectList #theList .siteUrl, #mainContent #siteList #theSelectList .siteUrl, .mainContent #siteList #theSelectList .siteUrl, #mainContent .siteSelectList #theSelectList .siteUrl, .mainContent .siteSelectList #theSelectList .siteUrl {
+  color: var(--site-url-color);
+}
+
+#mainContent #siteList #theList .siteUrl a, .mainContent #siteList #theList .siteUrl a, #mainContent .siteSelectList #theList .siteUrl a, .mainContent .siteSelectList #theList .siteUrl a, #mainContent #siteList #theSelectList .siteUrl a, .mainContent #siteList #theSelectList .siteUrl a, #mainContent .siteSelectList #theSelectList .siteUrl a, .mainContent .siteSelectList #theSelectList .siteUrl a {
+  color: var(--site-url-color);
+}
+
+#mainContent #siteList #theList ul.siteActions > li div.arrow, .mainContent #siteList #theList ul.siteActions > li div.arrow, #mainContent .siteSelectList #theList ul.siteActions > li div.arrow, .mainContent .siteSelectList #theList ul.siteActions > li div.arrow, #mainContent #siteList #theSelectList ul.siteActions > li div.arrow, .mainContent #siteList #theSelectList ul.siteActions > li div.arrow, #mainContent .siteSelectList #theSelectList ul.siteActions > li div.arrow, .mainContent .siteSelectList #theSelectList ul.siteActions > li div.arrow, #mainContent #siteList #theList ul.siteActions > li a, .mainContent #siteList #theList ul.siteActions > li a, #mainContent .siteSelectList #theList ul.siteActions > li a, .mainContent .siteSelectList #theList ul.siteActions > li a, #mainContent #siteList #theSelectList ul.siteActions > li a, .mainContent #siteList #theSelectList ul.siteActions > li a, #mainContent .siteSelectList #theSelectList ul.siteActions > li a, .mainContent .siteSelectList #theSelectList ul.siteActions > li a {
+  color: var(--site-action-color);
+}
+
+#mainContent #siteList #theList ul.siteActions > li:hover > div.arrow, .mainContent #siteList #theList ul.siteActions > li:hover > div.arrow, #mainContent .siteSelectList #theList ul.siteActions > li:hover > div.arrow, .mainContent .siteSelectList #theList ul.siteActions > li:hover > div.arrow, #mainContent #siteList #theSelectList ul.siteActions > li:hover > div.arrow, .mainContent #siteList #theSelectList ul.siteActions > li:hover > div.arrow, #mainContent .siteSelectList #theSelectList ul.siteActions > li:hover > div.arrow, .mainContent .siteSelectList #theSelectList ul.siteActions > li:hover > div.arrow, #mainContent #siteList #theList ul.siteActions > li:hover > a, .mainContent #siteList #theList ul.siteActions > li:hover > a, #mainContent .siteSelectList #theList ul.siteActions > li:hover > a, .mainContent .siteSelectList #theList ul.siteActions > li:hover > a, #mainContent #siteList #theSelectList ul.siteActions > li:hover > a, .mainContent #siteList #theSelectList ul.siteActions > li:hover > a, #mainContent .siteSelectList #theSelectList ul.siteActions > li:hover > a, .mainContent .siteSelectList #theSelectList ul.siteActions > li:hover > a {
+  color: var(--site-action-hover-color);
+}
+
+#mainContent #siteList #theList ul.siteActions > li.moreActions li:hover span, .mainContent #siteList #theList ul.siteActions > li.moreActions li:hover span, #mainContent .siteSelectList #theList ul.siteActions > li.moreActions li:hover span, .mainContent .siteSelectList #theList ul.siteActions > li.moreActions li:hover span, #mainContent #siteList #theSelectList ul.siteActions > li.moreActions li:hover span, .mainContent #siteList #theSelectList ul.siteActions > li.moreActions li:hover span, #mainContent .siteSelectList #theSelectList ul.siteActions > li.moreActions li:hover span, .mainContent .siteSelectList #theSelectList ul.siteActions > li.moreActions li:hover span {
+  color: var(--site-action-hover-color);
+}
+
+#mainContent #siteList #theList ul.siteActions > li.moreActions li:hover a, .mainContent #siteList #theList ul.siteActions > li.moreActions li:hover a, #mainContent .siteSelectList #theList ul.siteActions > li.moreActions li:hover a, .mainContent .siteSelectList #theList ul.siteActions > li.moreActions li:hover a, #mainContent #siteList #theSelectList ul.siteActions > li.moreActions li:hover a, .mainContent #siteList #theSelectList ul.siteActions > li.moreActions li:hover a, #mainContent .siteSelectList #theSelectList ul.siteActions > li.moreActions li:hover a, .mainContent .siteSelectList #theSelectList ul.siteActions > li.moreActions li:hover a {
+  color: var(--site-action-hover-color);
+}
+
+.leavePagePopup #confirmDelete {
+  background: var(--negative-btn-color);
+  color: var(--negative-btn-font-color);
+}
+
+.leavePagePopup #confirmDelete:hover {
+  background: var(--negative-button-hover-color);
+}
+
+.leavePagePopup #notConfirmDelete, .leavePagePopup #confirmFullDelete {
+  background: var(--button-color);
+  color: var(--button-visible-font-color);
+}
+
+.leavePagePopup #notConfirmDelete:hover, .leavePagePopup #confirmFullDelete:hover {
+  background: var(--visible-button-hover-color);
+}
+
+.leavePagePopup.delete-customer #confirmDelete {
+  background: var(--button-color);
+  color: var(--button-visible-font-color);
+}
+
+.leavePagePopup.delete-customer #confirmDelete:hover {
+  background: var(--visible-button-hover-color);
+}
+
+.changeMailPopup,
+.changePasswordPopup .saveDomainPopup #confirmDelete {
+  background: var(--button-color);
+  color: var(--button-visible-font-color);
+}
+
+.changePasswordPopup .saveDomainPopup #confirmDelete:hover {
+  background: var(--visible-button-hover-color);
+}
+
+.changePasswordPopup .saveDomainPopup #notConfirmDelete {
+  background: var(--negative-btn-color);
+  color: var(--negative-btn-font-color);
+}
+
+.changePasswordPopup .saveDomainPopup #notConfirmDelete:hover {
+  background: var(--negative-button-hover-color);
+}
+
+.selection-toggler .toggler-box {
+  color: var(--header-text-color);
+}
+
+input[type='checkbox']:checked + label .selection-toggler .toggler-box {
+  background-color: var(--header-color);
+}
+
+/* Dashboard spinner */
+@keyframes f_fadeG {
+  0% {
+    background-color: var(--header-color);
+  }
+  100% {
+    background-color: #ffffff;
+  }
+}
+
+.reseller-in-d #navigationWrapper {
+  background: #313131;
+}
+
+.reseller-in-d #navigationWrapper #navigation li:not(.subnav-item) {
+  border-left: 1px solid black;
+}
+
+.dashboard-button {
+  text-align: center;
+}
+
+label.go-editor-published-link,
+a.go-editor-published-link-container {
+  color: #6d6d6d;
+}
+
+.go-editor-published-icon {
+  fill: #6d6d6d;
+}
+
+#mobileDashboardLogo {
+  background-image: var(--logo-url);
+  background-repeat: no-repeat !important;
+  background-position-y: center !important;
+  background-position-x: left;
+  background-size: contain !important;
+}
+
+/* _dashboard-common.scss */
+.button-bg-text-colored {
+  color: var(--button-color) !important;
+}
+
+.button-colored {
+  color: var(--button-visible-font-color) !important;
+  background-color: var(--button-color) !important;
+}
+
+.text-with-header-color {
+  color: var(--header-color) !important;
+}
+
+/* _pro-stats.scss */
+#mainContent #dashboardAppWrapper .dashboard-button {
+  background-color: var(--button-color);
+  color: var(--button-visible-font-color);
+}
+
+#mainContent #dashboardAppWrapper .dashboard-button:hover:not([disabled]):not(.disabled) {
+  background-color: var(--switch-btn-hover-color);
+}
