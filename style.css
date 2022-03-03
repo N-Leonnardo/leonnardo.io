@@ -8,7 +8,7 @@
 
 .background {
     background: radial-gradient(79.06% 65.46% at 99.56% -0.33%, rgba(0, 88, 231, 0.2) 0%, rgba(7, 20, 41, 0.2) 100%), radial-gradient(50% 44.45% at 0% 100%, #021F4E 0%, #011638 100%);
-height: auto;
+height: 200vh;
 }
 
 .displayF{
