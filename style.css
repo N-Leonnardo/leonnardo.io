@@ -9,7 +9,6 @@
 
 .background {
     background: radial-gradient(79.06% 65.46% at 99.56% -0.33%, rgba(0, 88, 231, 0.2) 0%, rgba(7, 20, 41, 0.2) 100%), radial-gradient(50% 44.45% at 0% 100%, #021F4E 0%, #011638 100%);
-height: 200vh;
 }
 
 .displayF{
@@ -116,7 +115,7 @@ height: 200vh;
 .containerProj{
     flex-direction: row;
 
-    padding: 30px;
+    padding: 30px 30px 0 30px;
     justify-content: space-evenly;
 
     padding: 30px 60px 30px 60px;
@@ -151,6 +150,59 @@ height: 200vh;
 
 }
 
+.projTitle{
+    font-size: 48px;
+}
+
+
+
+/* Youtube part */
+
+.ytContainer{
+margin-top: 100px;
+}
+
+.ytBox{
+    width: 90%;
+    background-color: rgba(183, 221, 255, 0.265);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.videosLine{
+    flex-direction: row;
+}
+
+.video{
+    margin: 10px;
+}
+
+.ytAvatar{
+    width: 220px;
+    border-radius: 100%;
+    border: 7px solid hsl(0, 0%, 100%);
+    margin: 10px 0 30px 0;
+}
+
+.ytDesc{
+    width: 40%;
+    margin:10px 0 60px 0 ;
+}
+
+.ytTitle{
+    margin: 0 0 40px 0;
+    font-size: 48px;
+}
+
+.video{
+    border-radius: 20px;
+}
+
 @media (max-width: 1024px){
 
     .about{
@@ -180,4 +232,17 @@ height: 200vh;
         width: 80%;
     }
 
+
+    .containerProj {
+        flex-direction: column;
+    }
+
+    .eachProj{
+        width: 90%;
+        margin: 10px;
+    }
+
+    .videosLine{
+        flex-direction: column;
+    }
 }
