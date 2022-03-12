@@ -160,14 +160,24 @@
 /* Youtube part */
 
 .ytContainer{
-margin-top: 100px;
+margin-top: 80px;
+color: black;
 }
 
 .ytBox{
-    width: 90%;
-    background-color: rgba(183, 221, 255, 0.265);
-    border-radius: 10px;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.861);
+    border-radius: 25px;
     padding: 20px;
+}
+
+.ytBlack{
+    color: black;
+    text-align: center;
+}
+
+.ytName{
+    margin-top: 20px;
 }
 
 .videos{
@@ -186,17 +196,19 @@ margin-top: 100px;
 .ytAvatar{
     width: 220px;
     border-radius: 100%;
-    border: 7px solid hsl(0, 0%, 100%);
-    margin: 10px 0 30px 0;
+    border: 9px solid #ffffff;
+
+    -webkit-box-shadow: 0px 0px 22px 1px rgba(0,0,0,0.42); 
+box-shadow: 0px 0px 22px 1px rgba(0,0,0,0.42);
 }
 
 .ytDesc{
-    width: 40%;
-    margin:10px 0 60px 0 ;
+    width: 50%;
+    margin:10px 0 40px 0 ;
 }
 
 .ytTitle{
-    margin: 0 0 40px 0;
+    margin: 0 0 5px 0;
     font-size: 48px;
 }
 
@@ -204,7 +216,17 @@ margin-top: 100px;
     border-radius: 20px;
 }
 
+.ytLogo{
+    filter: invert(100%);
+    width: 200px;
+    margin-bottom: 60px;
+}
+
 @media (max-width: 1024px){
+
+    .videosLine{
+        flex-direction: column;
+    }
 
     .about{
         padding: 2px;
